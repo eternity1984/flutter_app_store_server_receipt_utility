@@ -91,22 +91,3 @@ final class ReceiptUtility {
         : null;
   }
 }
-
-// class _IndefiniteFormAwareDecoder extends asn1Decoder {}
-
-
-// class IndefiniteFormAwareDecoder(asn1.Decoder):
-//     def _read_length(self) -> int:
-//         index, input_data = self.m_stack[-1]
-//         try:
-//             byte = input_data[index]
-//         except IndexError:
-//             raise asn1.Error('Premature end of input.')
-//         if byte == 0x80:
-//             # Xcode receipts use indefinite length encoding, not supported by all parsers
-//             # Indefinite length encoding is only entered, but never left during parsing for receipts
-//             # We therefore round up indefinite length encoding to be the remaining length
-//             self._read_byte()
-//             index, input_data = self.m_stack[-1]
-//             return len(input_data) - index
-//         return super()._read_length()
