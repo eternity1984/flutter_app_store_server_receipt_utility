@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_store_server_receipt_utility/receipt_utility.dart';
+import 'package:flutter_app_store_server_receipt_utility/flutter_app_store_server_receipt_utility.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 const APP_RECEIPT_EXPECTED_TRANSACTION_ID = "0";

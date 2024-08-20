@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_store_server_receipt_utility/receipt_utility.dart';
+import 'package:flutter_app_store_server_receipt_utility/flutter_app_store_server_receipt_utility.dart';
 
 void main() {
   const appReceipt =
